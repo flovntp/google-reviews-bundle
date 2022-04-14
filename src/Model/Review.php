@@ -7,11 +7,11 @@ class Review
     /**
      * @var string
      */
-    private $authorName;
+    private $author_name;
     /**
      * @var string
      */
-    private $authorUrl;
+    private $author_url;
     /**
      * @var string
      */
@@ -19,7 +19,7 @@ class Review
     /**
      * @var string
      */
-    private $profilePhotoUrl;
+    private $profile_photo_url;
     /**
      * @var int
      */
@@ -27,7 +27,7 @@ class Review
     /**
      * @var string
      */
-    private $relativeTimeDescription;
+    private $relative_time_description;
     /**
      * @var string
      */
@@ -39,22 +39,22 @@ class Review
 
     public function getAuthorName(): string
     {
-        return $this->authorName;
+        return $this->author_name;
     }
 
     public function setAuthorName(string $authorName): void
     {
-        $this->authorName = $authorName;
+        $this->author_name = $authorName;
     }
 
     public function getAuthorUrl(): string
     {
-        return $this->authorUrl;
+        return $this->author_url;
     }
 
     public function setAuthorUrl(string $authorUrl): void
     {
-        $this->authorUrl = $authorUrl;
+        $this->author_url = $authorUrl;
     }
 
     public function getLanguage(): string
@@ -69,12 +69,12 @@ class Review
 
     public function getProfilePhotoUrl(): string
     {
-        return $this->profilePhotoUrl;
+        return $this->profile_photo_url;
     }
 
     public function setProfilePhotoUrl(string $profilePhotoUrl): void
     {
-        $this->profilePhotoUrl = $profilePhotoUrl;
+        $this->profile_photo_url = $profilePhotoUrl;
     }
 
     public function getRating(): int
@@ -89,12 +89,12 @@ class Review
 
     public function getRelativeTimeDescription(): string
     {
-        return $this->relativeTimeDescription;
+        return $this->relative_time_description;
     }
 
     public function setRelativeTimeDescription(string $relativeTimeDescription): void
     {
-        $this->relativeTimeDescription = $relativeTimeDescription;
+        $this->relative_time_description = $relativeTimeDescription;
     }
 
     public function getText(): string
@@ -109,7 +109,7 @@ class Review
 
     public function getTime(): int
     {
-        return new $this->time();
+        return $this->time;
     }
 
     public function setTime(int $time): void
