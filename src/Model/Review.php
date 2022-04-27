@@ -37,22 +37,22 @@ class Review
      */
     private $time;
 
-    public function getAuthorName(): string
+    public function getAuthor_Name(): string
     {
         return $this->author_name;
     }
 
-    public function setAuthorName(string $authorName): void
+    public function setAuthor_Name(string $authorName): void
     {
         $this->author_name = $authorName;
     }
 
-    public function getAuthorUrl(): string
+    public function getAuthor_Url(): string
     {
         return $this->author_url;
     }
 
-    public function setAuthorUrl(string $authorUrl): void
+    public function setAuthor_Url(string $authorUrl): void
     {
         $this->author_url = $authorUrl;
     }
@@ -67,12 +67,12 @@ class Review
         $this->language = $language;
     }
 
-    public function getProfilePhotoUrl(): string
+    public function getProfile_Photo_Url(): string
     {
         return $this->profile_photo_url;
     }
 
-    public function setProfilePhotoUrl(string $profilePhotoUrl): void
+    public function setProfile_Photo_Url(string $profilePhotoUrl): void
     {
         $this->profile_photo_url = $profilePhotoUrl;
     }
@@ -87,12 +87,12 @@ class Review
         $this->rating = $rating;
     }
 
-    public function getRelativeTimeDescription(): string
+    public function getRelative_Time_Description(): string
     {
         return $this->relative_time_description;
     }
 
-    public function setRelativeTimeDescription(string $relativeTimeDescription): void
+    public function setRelative_Time_Description(string $relativeTimeDescription): void
     {
         $this->relative_time_description = $relativeTimeDescription;
     }
